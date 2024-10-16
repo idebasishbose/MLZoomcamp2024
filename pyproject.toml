@@ -13,4 +13,7 @@ dependencies = [
     "scikit-learn>=1.5.2",
     "seaborn>=0.13.2",
 ]
+[tool.ruff]
 extend-include = ["*.ipynb"]
+[tool.ruff.lint.pydocstyle]
+convention = "google"  # Accepts: "google", "numpy", or "pep257".
