@@ -10,6 +10,7 @@ dependencies = [
     "pandas>=2.2.3",
     "polars[all]>=1.9.0",
     "pytz>=2024.2",
+    "rich[jupyter]>=13.9.2",
     "scikit-learn>=1.5.2",
     "seaborn>=0.13.2",
 ]

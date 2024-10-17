@@ -1296,6 +1296,7 @@ dependencies = [
     { name = "pandas" },
     { name = "polars", extra = ["all"] },
     { name = "pytz" },
+    { name = "rich", extra = ["jupyter"] },
     { name = "scikit-learn" },
     { name = "seaborn" },
 ]
@@ -1307,6 +1308,7 @@ requires-dist = [
     { name = "pandas", specifier = ">=2.2.3" },
     { name = "polars", extras = ["all"], specifier = ">=1.9.0" },
     { name = "pytz", specifier = ">=2024.2" },
+    { name = "rich", extras = ["jupyter"], specifier = ">=13.9.2" },
     { name = "scikit-learn", specifier = ">=1.5.2" },
     { name = "seaborn", specifier = ">=0.13.2" },
 ]
@@ -2088,6 +2090,11 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/aa/9e/1784d15b057b0075e5136445aaea92d23955aad2c93eaede673718a40d95/rich-13.9.2.tar.gz", hash = "sha256:51a2c62057461aaf7152b4d611168f93a9fc73068f8ded2790f29fe2b5366d0c", size = 222843 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/67/91/5474b84e505a6ccc295b2d322d90ff6aa0746745717839ee0c5fb4fdcceb/rich-13.9.2-py3-none-any.whl", hash = "sha256:8c82a3d3f8dcfe9e734771313e606b39d8247bb6b826e196f4914b333b743cf1", size = 242117 },
+]
+
+[package.optional-dependencies]
+jupyter = [
+    { name = "ipywidgets" },
 ]
 
 [[package]]

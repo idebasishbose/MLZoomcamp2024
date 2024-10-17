@@ -10,7 +10,7 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/laptops.csv">
+        <entry key="/homeworks/laptops.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
