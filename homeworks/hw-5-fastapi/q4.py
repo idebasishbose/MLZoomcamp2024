@@ -4,7 +4,7 @@ from pydantic import BaseModel
 from fastapi import FastAPI
 
 app = FastAPI()
-input_file = "model1.bin"
+input_file = "model2.bin"
 dv_file = "dv.bin"
 
 with open(input_file, "rb") as f_in:
